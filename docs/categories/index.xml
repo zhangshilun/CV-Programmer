@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on CV Programmer</title>
-    <link>https://zhangshilun.github.io/CV-Programmer/categories/</link>
+    <link>https://zhangshilun.github.io/categories/</link>
     <description>Recent content in Categories on CV Programmer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Powered by CV Programmer</copyright>
     
-	<atom:link href="https://zhangshilun.github.io/CV-Programmer/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhangshilun.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
