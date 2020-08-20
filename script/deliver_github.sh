@@ -1,6 +1,4 @@
 #!/bin/bash
-cd /home/blog/CV-Programmer/
-git pull
 cd /home/blog/
 hugo -D -d public_github --config config_github.toml
 rm -rf CV-Programmer/docs/
