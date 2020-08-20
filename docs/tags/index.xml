@@ -7,9 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Powered by CV Programmer</copyright>
+    <lastBuildDate>Wed, 19 Aug 2020 15:28:24 +0800</lastBuildDate>
     
 	<atom:link href="https://zhangshilun.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>centos</title>
+      <link>https://zhangshilun.github.io/tags/centos/</link>
+      <pubDate>Wed, 19 Aug 2020 15:28:24 +0800</pubDate>
+      
+      <guid>https://zhangshilun.github.io/tags/centos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://zhangshilun.github.io/tags/linux/</link>
+      <pubDate>Wed, 19 Aug 2020 15:28:24 +0800</pubDate>
+      
+      <guid>https://zhangshilun.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

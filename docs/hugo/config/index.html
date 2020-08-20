@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>所有分类 | CV Programmer</title>
+    <title>CentOS8 配置hugo个人博客 | CV Programmer</title>
 
     
 
@@ -17,19 +17,20 @@
 
 <meta name="generator" content="Hugo 0.74.3" />
 
-<link rel="canonical" href="https://zhangshilun.github.io/categories/" />
+<link rel="canonical" href="https://zhangshilun.github.io/hugo/config/" />
 
 
-<meta property="og:title" content="Categories" />
+<meta property="og:title" content="CentOS8 配置hugo个人博客" />
 <meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://zhangshilun.github.io/categories/" />
-<meta property="og:updated_time" content="2017-12-31T23:58:15+08:00" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zhangshilun.github.io/hugo/config/" />
+<meta property="article:published_time" content="2020-08-19T15:28:24+08:00" />
+<meta property="article:modified_time" content="2017-12-31T23:58:15+08:00" />
 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Categories"/>
+<meta name="twitter:title" content="CentOS8 配置hugo个人博客"/>
 <meta name="twitter:description" content=""/>
 
 
@@ -53,7 +54,12 @@
 </style>
 
 
-     
+    
+<link rel="stylesheet" href="/css/github-markdown.css" />
+
+
+
+
   </head>
 
   
@@ -78,6 +84,80 @@
         <section class="front">
           
 <div class="ui centered relaxed grid dream-grid">
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single">
+
+    <section class="ui top attached segment" id="dream-save-post-as-img">
+      <header style="margin-top: 0 !important;">
+        <h1 class="ui large header">
+          CentOS8 配置hugo个人博客
+          <div class="sub header">
+            @
+            
+              
+                今晚打老虎
+              
+            
+            · Wednesday, Aug 19, 2020
+            · 1 分钟阅读
+            · 更新于 Dec 31, 2017
+          </div>
+        </h1>
+      </header>
+
+      
+        <img class="ui image" style="margin-top: 2rem;" src="/img/night-moon.jpg" />
+      
+
+      <article style="margin-top: 2rem;"><p>安装go</p>
+<pre><code>yum -y install golang
+</code></pre>
+<p>添加epel repo</p>
+<pre><code>vim /etc/yum.repos.d/hugo.repo
+
+[daftaupe-hugo]
+name=Copr repo for hugo owned by daftaupe
+baseurl=https://copr-be.cloud.fedoraproject.org/results/daftaupe/hugo/epel-8-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://copr-be.cloud.fedoraproject.org/results/daftaupe/hugo/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+</code></pre>
+<p>安装hugo</p>
+<pre><code>yum -y install hugo
+</code></pre>
+<p>启动命令</p>
+<pre><code>nohup hugo server -D --bind &quot;0.0.0.0&quot; --baseUrl &quot;http://IP:1313/&quot; &amp;</code></pre></article>
+    </section>
+
+    <footer class="ui attached segment dream-tags">
+      
+        
+          <a class="ui label" href="/tags/linux" title="linux">linux</a>
+        
+          <a class="ui label" href="/tags/centos" title="centos">centos</a>
+        
+      
+      <div
+        class="ui label"
+        style="float: right; cursor: pointer;"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i>保存为图片
+      </div>
+    </footer>
+
+    
+      <footer class="ui attached segment">
+        Powered by CV Programmer
+      </footer>
+    
+
+    
+    
+    
+
+  </div>
   <div class="sixteen wide mobile sixteen wide tablet four wide computer column">
     <article class="dream-header">
   <section class="ui top attached center aligned segment">
@@ -88,8 +168,8 @@
     </div>
 
     
-    <div class="ui medium header">今晚打老虎 的博客<div class="sub header" style="margin-top: 0.5rem;">做一个优秀的CV程序员</div>
-    </div>
+    <h1 class="ui medium header">今晚打老虎 的博客<div class="sub header" style="margin-top: 0.5rem;">做一个优秀的CV程序员</div>
+    </h1>
     
 
     <div class="ui horizontal list">
@@ -195,35 +275,6 @@
 </article>
 
   </div>
-  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column">
-    <div class="ui segment dream-categories-section">
-      <h1 class="ui large header">
-        所有分类
-        <div class="ui grey sub header">
-          
-            1 分类
-          
-        </div>
-      </h1>
-
-      
-      
-        
-        <h2 class="ui medium header">
-          <a href="/categories/hugo/">hugo</a>
-          1篇文章
-        </h2>
-        <ul>
-          
-            <li>
-              <a href="https://zhangshilun.github.io/hugo/config/">CentOS8 配置hugo个人博客</a>
-            </li>
-          
-        </ul>
-      
-
-    </div>
-  </div>
 </div>
 
         </section>
@@ -298,7 +349,13 @@
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 
-     
+    
+<script src="/js/html2canvas.min.js"></script>
+<script src="/js/post.js"></script>
+
+
+
+
 
     
   </body>
