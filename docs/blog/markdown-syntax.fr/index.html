@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Guide de syntaxe de Markdown | Hugo Theme Dream</title>
+
+    
+
+
+
+<meta name="author" content="Yue Yang" />
+<meta name="description" content="" />
+
+
+
+<meta name="generator" content="Hugo 0.74.3" />
+
+<link rel="canonical" href="https:124.70.70.52/blog/markdown-syntax.fr/" />
+
+
+<meta property="og:title" content="Guide de syntaxe de Markdown" />
+<meta property="og:description" content="Exemple d&#39;article présentant la syntaxe et le formatage de base de Markdown pour les éléments HTML." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https:124.70.70.52/blog/markdown-syntax.fr/" />
+<meta property="og:image" content="" />
+<meta property="og:image" content="" />
+<meta property="og:image" content="" />
+<meta property="article:published_time" content="2019-03-11T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-03-11T00:00:00+00:00" />
+
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content=""/>
+
+<meta name="twitter:title" content="Guide de syntaxe de Markdown"/>
+<meta name="twitter:description" content="Exemple d&#39;article présentant la syntaxe et le formatage de base de Markdown pour les éléments HTML."/>
+
+
+<link rel="stylesheet" href="/css/semantic.min.css" />
+<link rel="stylesheet" href="/css/OverlayScrollbars.min.css" />
+<link rel="stylesheet" href="/css/site.css" />
+
+
+<style>
+  a {
+    color: seagreen !important;
+  }
+</style>
+
+
+
+<style>
+  .inverted a {
+     color: darkseagreen !important;
+  }
+</style>
+
+
+    
+<link rel="stylesheet" href="/css/github-markdown.css" />
+
+
+
+
+  </head>
+
+  
+  <body style="background: black;">
+  
+    
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = 'https:124.70.70.52'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          
+<div class="ui centered relaxed grid dream-grid">
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single">
+
+    <section class="ui top attached segment" id="dream-save-post-as-img">
+      <header style="margin-top: 0 !important;">
+        <h1 class="ui large header">
+          Guide de syntaxe de Markdown
+          <div class="sub header">
+            @
+            
+              
+                Hugo Auteurs
+              
+            
+            · Monday, Mar 11, 2019
+            · 3 minute read
+            · Update at Mar 11, 2019
+          </div>
+        </h1>
+      </header>
+
+      
+        <img class="ui image" style="margin-top: 2rem;" src="" />
+      
+
+      <article style="margin-top: 2rem;"><p>Cet article propose un exemple de syntaxe de base de Markdown pouvant être utilisée dans les fichiers de contenu Hugo. Il indique également si les éléments HTML de base sont décorés avec CSS dans un thème Hugo.</p>
+<h2 id="rubriques">Rubriques</h2>
+<p>Les éléments HTML <code>&lt;h1&gt;</code> —<code>&lt;h6&gt;</code>suivants représentent six niveaux d&rsquo;en-tête de section. <code>&lt;h1&gt;</code> est le niveau de section le plus élevé tandis que <code>&lt;h6&gt;</code> est le plus bas.</p>
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
+<h2 id="paragraphe">Paragraphe</h2>
+<p>Xerum, mais qui est un peu explicite sur le labo. Ace venitatiusda cum, voluptionse latur sitiae dolessi aut paristo nue en vol qui voluptate dolestendit péritin re plis aut quas inctum laceat est volestemque commosa comme date de fin, agent de base Quianimin porecus evelectur, cum que nis noll voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Vérifiez les résultats, notez les réponses, les rapports, les rapports, les chiffres, les chiffres, les chiffres, les chiffres, les chiffres, le temps, le temps, le temps, la durée, le temps, le temps, et le temps, puis le temps.</p>
+<p>Itatur? Quiatae cullecum se souvient de manière automatique dans les archives non-formées. Sapicia est sinveli squiatum, noyau et que aut hariosam ex eat.</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>L&rsquo;élément blockquote représente le contenu cité d&rsquo;une autre source, éventuellement avec une citation qui doit figurer dans un élément <code>footer</code> ou<code> cite</code>, et éventuellement avec des modifications en ligne telles que des annotations et des abréviations.</p>
+<h4 id="blockquote-sans-attribution">Blockquote sans attribution</h4>
+<blockquote>
+<p>Tiam, menthe et andaepu dandae nostion secatur sequo quae.
+<strong>Remarque</strong> que vous pouvez utiliser la syntaxe * Markdown * dans un bloc de citation.</p>
+</blockquote>
+<h4 id="blockquote-avec-attribution">Blockquote avec attribution</h4>
+<blockquote>
+<p>Ne communiquez pas en partageant la mémoire, partagez la mémoire en communiquant. <!-- raw HTML omitted --></p>
+<ul>
+<li><!-- raw HTML omitted --> Rob Pike <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> <!-- raw HTML omitted --></li>
+</ul>
+</blockquote>
+<h2 id="les-tables">Les tables</h2>
+<p>Les tables ne font pas partie de la spécification Markdown principale, mais Hugo les prend en charge immédiatement.</p>
+<table>
+<thead>
+<tr>
+<th>   Nom</th>
+<th>Âge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>    Bob</td>
+<td>27</td>
+</tr>
+<tr>
+<td>  Alice</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+<h4 id="inline-markdown-au-sein-des-tables">Inline Markdown au sein des tables</h4>
+<table>
+<thead>
+<tr>
+<th>En ligne &amp; nbsp; &amp; nbsp; &amp; nbsp;</th>
+<th>Markdown &amp; nbsp; &amp; nbsp; &amp; nbsp;</th>
+<th>Dans &amp; nbsp; &amp; nbsp; &amp; nbsp;</th>
+<th>Tableau</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>* italique *</td>
+<td>** gras **</td>
+<td>~~ barré ~~ &amp; nbsp; &amp; nbsp; &amp; nbsp;</td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="blocs-de-code">Blocs de code</h2>
+<h4 id="bloc-de-code-avec-backticks">Bloc de code avec backticks</h4>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;title&gt;Exemple de document HTML5 &lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre><h4 id="bloc-de-code-indenté-de-quatre-espaces">Bloc de code indenté de quatre espaces</h4>
+<p>    <!-- raw HTML omitted -->
+    <!-- raw HTML omitted -->
+    <!-- raw HTML omitted -->
+      <!-- raw HTML omitted -->
+      <!-- raw HTML omitted -->Exemple de document HTML5<!-- raw HTML omitted -->
+    <!-- raw HTML omitted -->
+    <!-- raw HTML omitted -->
+      <!-- raw HTML omitted -->Test<!-- raw HTML omitted -->
+    <!-- raw HTML omitted -->
+    <!-- raw HTML omitted --></p>
+<h4 id="bloc-de-code-avec-le-shortcode-interne-de-la-surbrillance-de-hugo">Bloc de code avec le shortcode interne de la surbrillance de Hugo</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html"><span style="color:#75715e">&lt;!DOCTYPE html&gt;</span>
+&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+&lt;<span style="color:#f92672">head</span>&gt;
+  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;UTF-8&#34;</span>&gt;
+  &lt;<span style="color:#f92672">title</span>&gt; Exemple de document HTML5 &lt;/<span style="color:#f92672">title</span>&gt;
+&lt;/<span style="color:#f92672">head</span>&gt;
+&lt;<span style="color:#f92672">body</span>&gt;
+  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
+&lt;/<span style="color:#f92672">body</span>&gt;
+&lt;/<span style="color:#f92672">html</span>&gt;</code></pre></div>
+<h2 id="types-de-liste">Types de liste</h2>
+<h4 id="liste-ordonnée">Liste ordonnée</h4>
+<ol>
+<li>Premier article</li>
+<li>Deuxième élément</li>
+<li>Troisième article</li>
+</ol>
+<h4 id="liste-non-ordonnée">Liste non ordonnée</h4>
+<ul>
+<li>Élément de liste</li>
+<li>Un autre article</li>
+<li>Et un autre article</li>
+</ul>
+<h4 id="liste-imbriquée">Liste imbriquée</h4>
+<ul>
+<li>Article</li>
+</ul>
+<ol>
+<li>Premier sous-article</li>
+<li>Deuxième sous-article</li>
+</ol>
+<h2 id="autres-éléments---abbr-sous-sup-kbd-mark">Autres éléments - abbr, sous, sup, kbd, mark</h2>
+<p><!-- raw HTML omitted -->GIF<!-- raw HTML omitted --> est un format d&rsquo;image bitmap.</p>
+<p>H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O</p>
+<p>X<!-- raw HTML omitted -->n<!-- raw HTML omitted -->+Y<!-- raw HTML omitted -->n<!-- raw HTML omitted -->=Z<!-- raw HTML omitted -->n<!-- raw HTML omitted --></p>
+<p>Appuyez sur <!-- raw HTML omitted --><!-- raw HTML omitted -->CTRL<!-- raw HTML omitted -->+<!-- raw HTML omitted -->ALT<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Supprimer<!-- raw HTML omitted --><!-- raw HTML omitted --> pour mettre fin à la session.</p>
+<p>La plupart des <!-- raw HTML omitted -->salamandres<!-- raw HTML omitted --> sont nocturnes et chassent les insectes, les vers et autres petites créatures.</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>La citation ci-dessus est extraite de [conversation] de Rob Pike (<a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">https://www.youtube.com/watch?v=PAAkCSZUG1c</a>) lors de la fête de Gopherfest, le 18 novembre 2015. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section></article>
+    </section>
+
+    <footer class="ui attached segment dream-tags">
+      
+        
+          <a class="ui label" href="/tags/markdown" title="markdown">markdown</a>
+        
+          <a class="ui label" href="/tags/css" title="css">css</a>
+        
+          <a class="ui label" href="/tags/html" title="html">html</a>
+        
+          <a class="ui label" href="/tags/themes" title="themes">themes</a>
+        
+      
+      <div
+        class="ui label"
+        style="float: right; cursor: pointer;"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i>Save as image
+      </div>
+    </footer>
+
+    
+
+    
+    
+    
+
+  </div>
+  <div class="sixteen wide mobile sixteen wide tablet four wide computer column">
+    <article class="dream-header">
+  <section class="ui top attached center aligned segment">
+    <div class="ui small circular image">
+      
+        <img src="/img/avatar.jpg">
+      
+    </div>
+
+    
+    <h1 class="ui medium header">Yue Yang&#39;s blog<div class="sub header" style="margin-top: 0.5rem;">Motto</div>
+    </h1>
+    
+
+    <div class="ui horizontal list">
+      
+      <a class="item" href="/tags">
+        <i class="tags icon" title="All Tags"></i>
+      </a>
+      <a class="item" href="/categories">
+        <i class="th list icon" title="All Categories"></i>
+      </a>
+    </div>
+  </section>
+
+  
+  <section class="ui attached center aligned segment dream-tags">
+    
+      <a class="ui label" href="/tags/css" title="css">css</a>
+    
+      <a class="ui label" href="/tags/emoji" title="emoji">emoji</a>
+    
+      <a class="ui label" href="/tags/featured" title="featured">featured</a>
+    
+      <a class="ui label" href="/tags/html" title="html">html</a>
+    
+      <a class="ui label" href="/tags/index" title="index">index</a>
+    
+      <a class="ui label" href="/tags/markdown" title="markdown">markdown</a>
+    
+      <a class="ui label" href="/tags/privacy" title="privacy">privacy</a>
+    
+      <a class="ui label" href="/tags/shortcodes" title="shortcodes">shortcodes</a>
+    
+      <a class="ui label" href="/tags/text" title="text">text</a>
+    
+      <a class="ui label" href="/tags/themes" title="themes">themes</a>
+    
+  </section>
+  
+
+  
+  <section class="ui attached segment dream-categories">
+    <div class="ui accordion">
+      
+      
+      
+      
+      
+
+      
+        
+
+        
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <a href="/categories/syntax" class="item">syntax</a>
+          </div>
+          <div class="content">
+            <div class="ui list">
+            
+              <div class="item">
+                <div class="content">
+                  <a href="/blog/markdown-syntax.fr/" class="item">Guide de syntaxe de Markdown</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a href="/blog/markdown-syntax/" class="item">Markdown Syntax Guide</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a href="/post/markdown-syntax/" class="item">Markdown Syntax Guide</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        
+      
+        
+
+        
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <a href="/categories/themes" class="item">themes</a>
+          </div>
+          <div class="content">
+            <div class="ui list">
+            
+              <div class="item">
+                <div class="content">
+                  <a href="/blog/markdown-syntax.fr/" class="item">Guide de syntaxe de Markdown</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a href="/blog/markdown-syntax/" class="item">Markdown Syntax Guide</a>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="content">
+                  <a href="/post/markdown-syntax/" class="item">Markdown Syntax Guide</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        
+      
+
+      
+    </div>
+  </section>
+  
+
+  <section class="ui attached segment header-socials">
+    <nav class="ui secondary menu dream-menu dream-socials">
+  
+  
+    <div class="item">
+      <a href="mailto:g1enyy0ung@gmail.com">
+        <i class=" mail icon" title="Email"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</nav>
+
+  </section>
+
+  <section class="ui bottom attached center aligned segment">
+    
+      <p>© 2016 - 2020 Hugo Theme Dream</p>
+    
+
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+
+    
+  </section>
+</article>
+
+  </div>
+</div>
+
+        </section>
+        <section class="back">
+          <div class="ui centered relaxed grid dream-grid dream-back">
+  
+  
+  
+    <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+      <article>
+        <div class="ui top attached segment">
+          <h3 class="ui header">About</h3>
+        </div>
+        <div class="ui bottom attached segment markdown-body">
+          <p>Written in Go, Hugo is an open source static site generator available under the <a href="https://github.com/gohugoio/hugo/blob/master/LICENSE">Apache Licence 2.0.</a> Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.</p>
+<p>Hugo makes use of a variety of open source projects including:</p>
+<ul>
+<li><a href="https://github.com/yuin/goldmark">https://github.com/yuin/goldmark</a></li>
+<li><a href="https://github.com/alecthomas/chroma">https://github.com/alecthomas/chroma</a></li>
+<li><a href="https://github.com/muesli/smartcrop">https://github.com/muesli/smartcrop</a></li>
+<li><a href="https://github.com/spf13/cobra">https://github.com/spf13/cobra</a></li>
+<li><a href="https://github.com/spf13/viper">https://github.com/spf13/viper</a></li>
+</ul>
+<p>Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.</p>
+<p>Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.</p>
+<p>Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.</p>
+<p>Learn more and contribute on <a href="https://github.com/gohugoio">GitHub</a>.</p>
+
+        </div>
+      </article>
+    </section>
+  
+    <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+      <article>
+        <div class="ui top attached segment">
+          <h3 class="ui header">O nas</h3>
+        </div>
+        <div class="ui bottom attached segment markdown-body">
+          <p>Napisany w Go, Hugo jest generatorem statycznych witryn o otwartym kodzie źródłowym, dostępnym na licencji [Apache License 2.0.] (Https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo obsługuje typy plików danych TOML, YAML i JSON , Markdown i pliki zawartości HTML oraz używa skrótów w celu dodania bogatej zawartości. Inne godne uwagi funkcje to taksonomie, tryb wielojęzyczny, przetwarzanie obrazu, niestandardowe formaty wyjściowe, minimalizacja HTML / CSS / JS oraz obsługa przepływów pracy Sass SCSS.</p>
+<p>Hugo korzysta z różnych projektów open source, w tym:</p>
+<ul>
+<li><a href="https://github.com/yuin/goldmark">https://github.com/yuin/goldmark</a></li>
+<li><a href="https://github.com/alecthomas/chroma">https://github.com/alecthomas/chroma</a></li>
+<li><a href="https://github.com/muesli/smartcrop">https://github.com/muesli/smartcrop</a></li>
+<li><a href="https://github.com/spf13/cobra">https://github.com/spf13/cobra</a></li>
+<li><a href="https://github.com/spf13/viper">https://github.com/spf13/viper</a></li>
+</ul>
+<p>Hugo jest idealny do blogów, witryn korporacyjnych, kreatywnych portfeli, czasopism internetowych, aplikacji na jednej stronie, a nawet strony internetowej z tysiącami stron.</p>
+<p>Hugo jest przeznaczony dla osób, które chcą ręcznie kodować własną stronę internetową, nie martwiąc się o konfigurowanie skomplikowanych środowisk uruchomieniowych, zależności i baz danych.</p>
+<p>Strony internetowe zbudowane przy użyciu Hugo są wyjątkowo szybkie, bezpieczne i można je wdrażać w dowolnym miejscu, w tym AWS, GitHub Pages, Heroku, Netlify i dowolnym innym dostawcy hostingu.</p>
+<p>Dowiedz się więcej i wnieś swój wkład w [GitHub] (<a href="https://github.com/gohugoio)">https://github.com/gohugoio)</a>.</p>
+
+        </div>
+      </article>
+    </section>
+  
+    <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+      <article>
+        <div class="ui top attached segment">
+          <h3 class="ui header">Sobre</h3>
+        </div>
+        <div class="ui bottom attached segment markdown-body">
+          <p>Escrito em Go, Hugo é um gerador de site estático de código aberto disponível sob a [Apache License 2.0.] (Https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo suporta tipos de arquivos de dados TOML, YAML e JSON , Markdown e arquivos de conteúdo HTML e usa códigos de acesso para adicionar conteúdo rico. Outros recursos notáveis ​​são taxonomias, modo multilíngue, processamento de imagem, formatos de saída personalizados, minificação HTML / CSS / JS e suporte para fluxos de trabalho Sass SCSS.</p>
+<p>Hugo faz uso de uma variedade de projetos de código aberto, incluindo:</p>
+<ul>
+<li><a href="https://github.com/yuin/goldmark">https://github.com/yuin/goldmark</a></li>
+<li><a href="https://github.com/alecthomas/chroma">https://github.com/alecthomas/chroma</a></li>
+<li><a href="https://github.com/muesli/smartcrop">https://github.com/muesli/smartcrop</a></li>
+<li><a href="https://github.com/spf13/cobra">https://github.com/spf13/cobra</a></li>
+<li><a href="https://github.com/spf13/viper">https://github.com/spf13/viper</a></li>
+</ul>
+<p>Hugo é ideal para blogs, sites corporativos, portfólios criativos, revistas on-line, aplicativos de página única ou até mesmo um site com milhares de páginas.</p>
+<p>Hugo é para pessoas que desejam codificar manualmente seu próprio site sem se preocupar em configurar tempos de execução complicados, dependências e bancos de dados.</p>
+<p>Os sites criados com Hugo são extremamente rápidos, seguros e podem ser implantados em qualquer lugar, incluindo AWS, GitHub Pages, Heroku, Netlify e qualquer outro provedor de hospedagem.</p>
+<p>Saiba mais e contribua no [GitHub] (<a href="https://github.com/gohugoio)">https://github.com/gohugoio)</a>.</p>
+
+        </div>
+      </article>
+    </section>
+  
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article>
+      <div class="ui top attached segment">
+        <h3 class="ui header">Social Links</h3>
+      </div>
+      <div class="ui bottom attached segment">
+        <nav class="ui secondary menu dream-menu dream-socials">
+  
+  
+    <div class="item">
+      <a href="mailto:g1enyy0ung@gmail.com">
+        <i class="large mail icon" title="Email"></i>
+      </a>
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</nav>
+
+      </div>
+    </article>
+  </section>
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+  </section>
+
+  
+    
+  
+</div>
+
+        </section>
+      </div>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/jquery.overlayScrollbars.min.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+
+    
+<script src="/js/html2canvas.min.js"></script>
+<script src="/js/post.js"></script>
+
+
+
+
+
+    
+  </body>
+</html>
