@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>hugo | CV Programmer</title>
+    <title>CentOS 使用mwget解决wget下载慢 | CV Programmer</title>
 
     
 
@@ -17,20 +17,21 @@
 
 <meta name="generator" content="Hugo 0.74.3" />
 
-<link rel="canonical" href="https://zhangshilun.github.io/categories/hugo/" />
+<link rel="canonical" href="https://zhangshilun.github.io/centos/mwget/" />
 
 
-<meta property="og:title" content="hugo" />
-<meta property="og:description" content="aaaaz" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://zhangshilun.github.io/categories/hugo/" />
-<meta property="og:updated_time" content="2017-12-31T23:58:15+08:00" />
+<meta property="og:title" content="CentOS 使用mwget解决wget下载慢" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://zhangshilun.github.io/centos/mwget/" />
+<meta property="article:published_time" content="2020-08-20T14:35:24+08:00" />
+<meta property="article:modified_time" content="2020-08-20T14:28:24+08:00" />
 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="hugo"/>
-<meta name="twitter:description" content="aaaaz"/>
+<meta name="twitter:title" content="CentOS 使用mwget解决wget下载慢"/>
+<meta name="twitter:description" content=""/>
 
 
 <link rel="stylesheet" href="/css/semantic.min.css" />
@@ -53,7 +54,12 @@
 </style>
 
 
-     
+    
+<link rel="stylesheet" href="/css/github-markdown.css" />
+
+
+
+
   </head>
 
   
@@ -78,7 +84,79 @@
         <section class="front">
           
 <div class="ui centered relaxed grid dream-grid">
-  <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single">
+
+    <section class="ui top attached segment" id="dream-save-post-as-img">
+      <header style="margin-top: 0 !important;">
+        <h1 class="ui large header">
+          CentOS 使用mwget解决wget下载慢
+          <div class="sub header">
+            @
+            
+              
+                今晚打老虎
+              
+            
+            · Thursday, Aug 20, 2020
+            · 1 分钟阅读
+            · 更新于 Aug 20, 2020
+          </div>
+        </h1>
+      </header>
+
+      
+        <img class="ui image" style="margin-top: 2rem;" src="/img/night-moon.jpg" />
+      
+
+      <article style="margin-top: 2rem;"><p>下载mwget</p>
+<pre><code>wget http://jaist.dl.sourceforge.net/project/kmphpfm/mwget/0.1/mwget_0.1.0.orig.tar.bz2
+</code></pre>
+<p>解压</p>
+<pre><code>tar -xjvf mwget_0.1.0.orig.tar.bz2
+</code></pre>
+<p>执行配置检查</p>
+<pre><code>cd mwget_0.1.0.orig
+./configure
+</code></pre>
+<p>按照提示安装缺失</p>
+<pre><code>yum install gcc-c++
+yum install intltool
+</code></pre>
+<p>最后安装</p>
+<pre><code>make
+make install
+</code></pre>
+<p>使用</p>
+<pre><code>mwget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz
+</code></pre></article>
+    </section>
+
+    <footer class="ui attached segment dream-tags">
+      
+        
+          <a class="ui label" href="/tags/linux" title="linux">linux</a>
+        
+          <a class="ui label" href="/tags/wget" title="wget">wget</a>
+        
+          <a class="ui label" href="/tags/mwget" title="mwget">mwget</a>
+        
+      
+      <div
+        class="ui label"
+        style="float: right; cursor: pointer;"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i>保存为图片
+      </div>
+    </footer>
+
+    
+
+    
+    
+    
+
+  </div>
+  <div class="sixteen wide mobile sixteen wide tablet four wide computer column">
     <article class="dream-header">
   <section class="ui top attached center aligned segment">
     <div class="ui small circular image">
@@ -88,8 +166,8 @@
     </div>
 
     
-    <div class="ui medium header">张仕伦 的博客<div class="sub header" style="margin-top: 0.5rem;">我不是一个coder，只是code的搬运工！</div>
-    </div>
+    <h1 class="ui medium header">张仕伦 的博客<div class="sub header" style="margin-top: 0.5rem;">我不是一个coder，只是code的搬运工！</div>
+    </h1>
     
 
     <div class="ui horizontal list">
@@ -225,59 +303,7 @@
 </article>
 
   </div>
-
-  
-  
-    <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
-      <article class="ui attached segment card dream-card">
-  <a class="image" href="https://zhangshilun.github.io/hugo/config/">
-    
-      <img src="/img/night-moon.jpg" alt="CentOS8 配置hugo个人博客" />
-    
-  </a>
-
-  <div class="content">
-    <h2 class="ui medium header">
-      <a href="https://zhangshilun.github.io/hugo/config/">CentOS8 配置hugo个人博客</a>
-    </h2>
-    <div class="meta">
-      <p class="date">
-        
-          星期三，八月 19 日，2020 年
-        
-      </p>
-      <p class="author">
-        @
-        
-          
-            今晚打老虎
-          
-        
-      </p>
-    </div>
-    <div class="description">
-      
-    </div>
-  </div>
-
-  <div class="extra content">
-    <a>
-      <i class="clock icon"></i>
-      1 分钟阅读
-    </a>
-  </div>
-</article>
-
-    </div>
-  
 </div>
-
-<div class="ui secondary menu dream-menu dream-paginator">
-  
-
-  
-</div>
-
 
         </section>
         <section class="back">
@@ -354,9 +380,11 @@
 <script src="/js/theme.js"></script>
 
     
-<script src="/js/imagesloaded.pkgd.min.js"></script>
-<script src="/js/masonry.pkgd.min.js"></script>
-<script src="/js/grid.js"></script>
+<script src="/js/html2canvas.min.js"></script>
+<script src="/js/post.js"></script>
+
+
+
 
 
     

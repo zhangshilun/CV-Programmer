@@ -10,8 +10,8 @@
 
 
 
-<meta name="author" content="今晚打老虎" />
-<meta name="description" content="" />
+<meta name="author" content="张仕伦" />
+<meta name="description" content="aaaaz" />
 
 
 
@@ -127,8 +127,15 @@ enabled=1
 <p>安装hugo</p>
 <pre><code>yum -y install hugo
 </code></pre>
+<p>新建一个新site
+hugo new site siteName</p>
+<p>config.toml增加配置
+[taxonomies]
+category = &ldquo;categories&rdquo;
+tag = &ldquo;tags&rdquo;</p>
 <p>启动命令</p>
-<pre><code>nohup hugo server -D --bind &quot;0.0.0.0&quot; --baseUrl &quot;http://IP:1313/&quot; &amp;</code></pre></article>
+<pre><code>nohup hugo server -D --bind &quot;0.0.0.0&quot; --baseUrl &quot;http://IP:1313/&quot; &amp;
+</code></pre></article>
     </section>
 
     <footer class="ui attached segment dream-tags">
@@ -148,10 +155,6 @@ enabled=1
     </footer>
 
     
-      <footer class="ui attached segment">
-        Powered by CV Programmer
-      </footer>
-    
 
     
     
@@ -163,12 +166,12 @@ enabled=1
   <section class="ui top attached center aligned segment">
     <div class="ui small circular image">
       
-        <img src="/img/apple-touch-icon.png">
+        <img src="/img/avatar.png">
       
     </div>
 
     
-    <h1 class="ui medium header">今晚打老虎 的博客<div class="sub header" style="margin-top: 0.5rem;">做一个优秀的CV程序员</div>
+    <h1 class="ui medium header">张仕伦 的博客<div class="sub header" style="margin-top: 0.5rem;">我不是一个coder，只是code的搬运工！</div>
     </h1>
     
 
@@ -190,6 +193,10 @@ enabled=1
     
       <a class="ui label" href="/tags/linux" title="linux">linux</a>
     
+      <a class="ui label" href="/tags/mwget" title="mwget">mwget</a>
+    
+      <a class="ui label" href="/tags/wget" title="wget">wget</a>
+    
   </section>
   
 
@@ -202,6 +209,26 @@ enabled=1
       
       
 
+      
+        
+
+        
+          <div class="title">
+            <i class="dropdown icon"></i>
+            <a href="/categories/centos" class="item">centos</a>
+          </div>
+          <div class="content">
+            <div class="ui list">
+            
+              <div class="item">
+                <div class="content">
+                  <a href="/centos/mwget/" class="item">CentOS 使用mwget解决wget下载慢</a>
+                </div>
+              </div>
+            
+            </div>
+          </div>
+        
       
         
 
@@ -231,6 +258,12 @@ enabled=1
 
   <section class="ui attached segment header-socials">
     <nav class="ui secondary menu dream-menu dream-socials">
+  
+    <div class="item">
+      <a href="/index.xml">
+        <i class=" rss square icon" title="RSS"></i>
+      </a>
+    </div>
   
   
     <div class="item">
@@ -292,6 +325,12 @@ enabled=1
       <div class="ui bottom attached segment">
         <nav class="ui secondary menu dream-menu dream-socials">
   
+    <div class="item">
+      <a href="/index.xml">
+        <i class="large rss square icon" title="RSS"></i>
+      </a>
+    </div>
+  
   
     <div class="item">
       <a href="mailto:zhangslsl@foxmail.com">
@@ -326,10 +365,6 @@ enabled=1
   </section>
 
   <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
-    
-      <footer class="ui segment">
-        Powered by CV Programmer
-      </footer>
     
   </section>
 

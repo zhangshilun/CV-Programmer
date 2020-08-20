@@ -6,11 +6,19 @@
     <description>Recent content in Categories on CV Programmer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>Powered by CV Programmer</copyright>
-    <lastBuildDate>Wed, 19 Aug 2020 15:28:24 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 14:35:24 +0800</lastBuildDate>
     
 	<atom:link href="https://zhangshilun.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CentOS</title>
+      <link>https://zhangshilun.github.io/categories/centos/</link>
+      <pubDate>Thu, 20 Aug 2020 14:35:24 +0800</pubDate>
+      
+      <guid>https://zhangshilun.github.io/categories/centos/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>hugo</title>

@@ -1,0 +1,53 @@
+baseurl = "https://zhangshilun.github.io/"
+languageCode = "zh"
+defaultContentLanguage = "zh"
+title = "CV Programmer"
+theme = "hugo-theme-dream"
+
+# copyright = ""
+
+# googleAnalytics = ""
+
+# disqusShortname = ""
+
+# enableRobotsTXT = true
+
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  background = "black"
+  # backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  author = "张仕伦"
+  description = "aaaaz"
+  avatar = "/img/avatar.png"
+  motto = "我不是一个coder，只是code的搬运工！"
+
+  rss = true
+
+  # utterancesRepo = ""
+  
+  email = "zhangslsl@foxmail.com"
+  # twitter = ""
+  # facebook = ""
+  # instagram = ""
+  # linkedin = ""
+  github = "zhangshilun"
+  # stackoverflow = ""
+  # codepen = ""
+
+  siteStartYear = 2020
+
+  # favicon = "/favicon.ico"
+
+  # options
+  showSummaryCoverInPost = true
+
+  # dark mode
+  darkLinkColor = "darkseagreen"
+  darkNav = true 
+  dark404 = true
