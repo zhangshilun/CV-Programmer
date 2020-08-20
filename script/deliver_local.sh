@@ -2,9 +2,11 @@
 cd /home/blog/CV-Programmer/
 git pull
 rm -rf /home/blog/content/
+rm -rf /home/blog/static/
 rm -rf /home/blog/config.toml
 rm -rf /home/blog/config_github.toml
 cp -r content/ /home/blog/content/
+cp -r static/ /home/blog/static/
 cp -r config/config.toml /home/blog/config.toml
 cp -r config/config_github.toml /home/blog/config_github.toml
 cd /home/blog/
