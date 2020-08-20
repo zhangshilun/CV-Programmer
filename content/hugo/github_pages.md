@@ -14,7 +14,7 @@ draft: true
 ---
 
 <!--more-->
-在github新建仓库，名为 \<username>.github.io （每个用户只能建立一个） 其中 \username 替换为 github 用户名
+在github新建仓库，名为 \<username>.github.io （每个用户只能建立一个） 其中 username 替换为 github 用户名
 
     
   
