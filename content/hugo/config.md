@@ -35,6 +35,13 @@ draft: true
 
     yum -y install hugo
     
+新建一个新site
+  hugo new site siteName
+    
+config.toml增加配置
+    [taxonomies]
+      category = "categories"
+      tag = "tags"
 
 启动命令
     
