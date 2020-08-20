@@ -40,6 +40,7 @@ draft: true
     hugo new site siteName
     
 config.toml增加配置
+
     [taxonomies]
       category = "categories"
       tag = "tags"
