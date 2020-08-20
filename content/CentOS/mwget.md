@@ -1,7 +1,7 @@
 ---
 title: "CentOS 使用mwget解决wget下载慢"
-date: 2020-08-20T15:28:24+08:00
-lastmod: 2020-08-20T15:28:24+08:00
+date: 2020-08-20T14:35:24+08:00
+lastmod: 2020-08-20T14:28:24+08:00
 author: 今晚打老虎
 cover: /img/night-moon.jpg
 categories:
