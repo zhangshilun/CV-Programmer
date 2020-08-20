@@ -1,18 +1,3 @@
-# cvprogrammer
+# 我们不是coder，只是code的搬运工
 
-hugo --config config_github.toml
-
-
-rm -rf CV-Programmer/docs/
-
-
-cp -r public/. CV-Programmer/docs/
-
-
-git add docs/
-
-
-git commit -m "updates $(date)"
-
-
-git push origin master
+  个人杂记
