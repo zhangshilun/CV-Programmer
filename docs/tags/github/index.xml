@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on CV Programmer</title>
+    <link>https://zhangshilun.github.io/tags/github/</link>
+    <description>Recent content in github on CV Programmer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 18 Aug 2020 15:28:24 +0800</lastBuildDate>
+    
+	<atom:link href="https://zhangshilun.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>使用github_pages发布hugo个人博客</title>
+      <link>https://zhangshilun.github.io/hugo/github_pages/</link>
+      <pubDate>Tue, 18 Aug 2020 15:28:24 +0800</pubDate>
+      
+      <guid>https://zhangshilun.github.io/hugo/github_pages/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

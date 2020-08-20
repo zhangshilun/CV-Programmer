@@ -20,5 +20,14 @@
       <description></description>
     </item>
     
+    <item>
+      <title>使用github_pages发布hugo个人博客</title>
+      <link>https://zhangshilun.github.io/hugo/github_pages/</link>
+      <pubDate>Tue, 18 Aug 2020 15:28:24 +0800</pubDate>
+      
+      <guid>https://zhangshilun.github.io/hugo/github_pages/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
