@@ -14,11 +14,13 @@ draft: true
 ---
 
 <!--more-->
-在github新建仓库，名为 <username>.github.io（每个用户只能建立一个） 其中username替换为github用户名
+在github新建仓库，名为 \<username>.github.io （每个用户只能建立一个） 其中 \username 替换为 github 用户名
 
-新建仓库Settings中，找到 GitHub Pages ，设置Source 为 master 分支，后面选 / 或者 /docs，这个是发布的目录
+    
+  
+新建仓库 Settings 中，找到 GitHub Pages ，设置 Source 为 master 分支，后面选 / 或者 /docs ，这个是发布的目录
 
-上述弄完就可以使用<username>.github.io访问
+上述弄完就可以使用 \<username>.github.io 访问
 
 这时设置的 / 或 /docs（没有自己建）下没有内容，将hugo生成的public文件夹推送到对应目录，再次访问即可。
 
