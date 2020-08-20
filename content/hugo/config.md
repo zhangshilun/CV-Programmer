@@ -1,7 +1,7 @@
 ---
 title: "CentOS8 配置hugo个人博客"
 date: 2020-08-19T15:28:24+08:00
-lastmod: 2017-12-31T23:58:15+08:00
+lastmod: 2020-08-19T15:28:24+08:00
 author: 今晚打老虎
 cover: /img/night-moon.jpg
 categories:
