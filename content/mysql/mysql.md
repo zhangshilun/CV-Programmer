@@ -67,7 +67,7 @@ mysql安装配置
 
     set password=password('111111');
 
-14. 设置远程连接
+14. 设置远程连接（一般会有两个root用户，%的为远程连接用户，localhost为本地用户，密码独立）
 
     grant all privileges on *.* to 'root'@'%' identified by 'root';
     flush privileges;
